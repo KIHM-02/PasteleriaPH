@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta content="ie=edge">
+        <title>Comprar pastel</title>
+    </head>
+
+    <body>
+        <form action="" method="post">
+            <h3>Datos de compra</h3>
+
+            <p>
+                <label for="nombre">Ingrese su nombre: </label>
+                <input type="text" name ="nombre" id="nombre"/>
+
+                <label for="apellido">Ingrese su apellido: </label>
+                <input type="text" name ="apellido" id="txtApelido"/>
+            </p>
+
+            <p>
+                <label for="correo">Ingrese su corrreo: </label>
+                <input type="email" name ="correo" id="txtCorreo"/>
+
+                <label for="txtTelefono">Ingrese su numero de celular</label>
+                <input type="text" name="telefono" id="txtTelefono">
+            </p>
+
+            <p>
+                <label for="empresa">Descripcion del pastel: </label><br>
+                <textarea name="descripcion" id="txtDesc" cols="30" rows="10"></textarea>
+            </p>
+
+            <h3>Agregados del pastel</h3>
+
+            <label for="Accesorios">Escoja los accesorios:</label>
+            <br>
+            <select name="accesorios" id="Accesorios">
+                <option value="Vela Luminosa">Vela Luminosa</option>
+                <option value="plato">Plato Ph</option>
+                <option value="Velas FC">Velas Feliz Cumpleaños</option>
+                <option value="cucharas">Cucharas plastico</option>
+                <option value="vela numero">vela numero</option>
+                <option value="Palita">Palita de pastel</option>
+                <option value="vela HP">Vela happy birthday</option>
+                <option value="caja Velas">Caja de velas</option>
+                <option value="vela ?">Vela de interrogacion</option>
+                <option value="vela Magica">vela magica</option>
+                <option value="vela Globo">vela de Globo</option>
+                <option value="vela espiral">Vela espiral</option>
+            </select>
+
+            <p>
+                <label for="sabores">Escoja los sabores:</label>
+                <br>
+                <select name="sabores" id="sabores">
+                    <option value="Vainilla Clasico">Vainilla Clasico</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Nutella">Nutella</option>
+                    <option value="Mocha">Mocha</option>
+                    <option value="Raspberry">Raspberry</option>
+                    <option value="Balleys">Balleys</option>
+                    <option value="Crema cacahuate">Crema cacahuate</option>
+                    <option value="Chocolate naranja">Chocolate naranja/option>
+                    <option value="Limon">Limon</option>
+                    <option value="zanahoria">zanahoria</option>
+                    <option value="manzana">manzana</option>
+                    <option value="naranja">naranja</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" name="btnAgregar" id="agregar" value="Agregar">
+            </p>
+        </form>
+    </body>
+</html>
